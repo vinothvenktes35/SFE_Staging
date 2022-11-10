@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.sfe.utility.ListenerClass"></listener>
+	</listeners>
+	<test thread-count="5" name="Smoke">
+		<parameter name="browser" value="Chrome"></parameter>
+		<groups>
+			<run>
+				<include name="Smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.sfe.testscripts.SignUpPageTest" />
+			<class name="com.sfe.testscripts.SignInPageTest" />
+			<class name="com.sfe.testscripts.ProfilePageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+	
+	

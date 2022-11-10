@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CrossBrowser" class="navigator-link">
+              <span class="suite-name border-failed">CrossBrowser</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CrossBrowser" class="navigator-link ">
+                    <span>C:\Users\Dell\eclipse-workspace\SFE_Project_Staging\testng_crossbrowser.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CrossBrowser" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CrossBrowser" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CrossBrowser" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CrossBrowser" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CrossBrowser" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CrossBrowser" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 2 failed,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CrossBrowser" class="hide-methods failed suite-CrossBrowser"> (hide)</a> <!-- hide-methods failed suite-CrossBrowser -->
+                      <a href="#" panel-name="suite-CrossBrowser" class="show-methods failed suite-CrossBrowser"> (show)</a> <!-- show-methods failed suite-CrossBrowser -->
+                    </span>
+                    <div class="method-list-content failed suite-CrossBrowser">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.ProfilePageTest" class="method navigator-link" hash-for-method="editProfilePage(C:\Users\Dell\Pictures\a.jpg, pzvrvgvcrrvlpoorwa@nthrw.com, Testing@143, vinoth, kumar, VVK, abc, In...)">editProfilePage(C:\Users\Dell\Pictures\a.jpg, pzvrvgvcrrvlpoorwa@nthrw.com, Testing@143, vinoth, kumar, VVK, abc, In...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="googleSignIn(vinothvenkates11@gmail.com, Testing@143)">googleSignIn(vinothvenkates11@gmail.com, Testing@143)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CrossBrowser -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CrossBrowser" class="hide-methods passed suite-CrossBrowser"> (hide)</a> <!-- hide-methods passed suite-CrossBrowser -->
+                      <a href="#" panel-name="suite-CrossBrowser" class="show-methods passed suite-CrossBrowser"> (show)</a> <!-- show-methods passed suite-CrossBrowser -->
+                    </span>
+                    <div class="method-list-content passed suite-CrossBrowser">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignUpPageTest" class="method navigator-link" hash-for-method="AlreadyAMemberSignin">AlreadyAMemberSignin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignUpPageTest" class="method navigator-link" hash-for-method="AlreadyAMemberSignin">AlreadyAMemberSignin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.ProfilePageTest" class="method navigator-link" hash-for-method="editProfilePage(C:\Users\Dell\Pictures\a.jpg, pzvrvgvcrrvlpoorwa@nthrw.com, Testing@143, vinoth, kumar, VVK, abc, In...)">editProfilePage(C:\Users\Dell\Pictures\a.jpg, pzvrvgvcrrvlpoorwa@nthrw.com, Testing@143, vinoth, kumar, VVK, abc, In...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="emailSignIn(piswjuwgxwkghypyij@tmmwj.com, Testing@143)">emailSignIn(piswjuwgxwkghypyij@tmmwj.com, Testing@143)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="emailSignIn(piswjuwgxwkghypyij@tmmwj.com, Testing@143)">emailSignIn(piswjuwgxwkghypyij@tmmwj.com, Testing@143)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignUpPageTest" class="method navigator-link" hash-for-method="emailSingUp(wimsdfgare3678@nifect.com, Testing@143, vinoth, kumar)">emailSingUp(wimsdfgare3678@nifect.com, Testing@143, vinoth, kumar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignUpPageTest" class="method navigator-link" hash-for-method="emailSingUp(wimsdfgare3678@nifect.com, Testing@143, vinoth, kumar)">emailSingUp(wimsdfgare3678@nifect.com, Testing@143, vinoth, kumar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="facebookSignIn(vinothvenkateee@gmail.com, Sakshi@143)">facebookSignIn(vinothvenkateee@gmail.com, Sakshi@143)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="facebookSignIn(vinothvenkateee@gmail.com, Sakshi@143)">facebookSignIn(vinothvenkateee@gmail.com, Sakshi@143)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignUpPageTest" class="method navigator-link" hash-for-method="facebookSingUp(vinothvenkateee@gmail.com, Sakshi@143)">facebookSingUp(vinothvenkateee@gmail.com, Sakshi@143)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignUpPageTest" class="method navigator-link" hash-for-method="facebookSingUp(vinothvenkateee@gmail.com, Sakshi@143)">facebookSingUp(vinothvenkateee@gmail.com, Sakshi@143)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="forgotPassword(pzvrvgvcrrvlpoorwa@nthrw.com)">forgotPassword(pzvrvgvcrrvlpoorwa@nthrw.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="forgotPassword(pzvrvgvcrrvlpoorwa@nthrw.com)">forgotPassword(pzvrvgvcrrvlpoorwa@nthrw.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="googleSignIn(vinothvenkates11@gmail.com, Testing@143)">googleSignIn(vinothvenkates11@gmail.com, Testing@143)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignUpPageTest" class="method navigator-link" hash-for-method="googleSingUp(vinothvenkates11@gmail.com, Testing@143)">googleSingUp(vinothvenkates11@gmail.com, Testing@143)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignUpPageTest" class="method navigator-link" hash-for-method="googleSingUp(vinothvenkates11@gmail.com, Testing@143)">googleSingUp(vinothvenkates11@gmail.com, Testing@143)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="mobileSignIn(918148797433)">mobileSignIn(918148797433)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="mobileSignIn(918148797433)">mobileSignIn(918148797433)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignUpPageTest" class="method navigator-link" hash-for-method="mobileSignUp(918148797433, vinoth, kumar)">mobileSignUp(918148797433, vinoth, kumar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignUpPageTest" class="method navigator-link" hash-for-method="mobileSignUp(918148797433, vinoth, kumar)">mobileSignUp(918148797433, vinoth, kumar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="notRegisteredSignUp">notRegisteredSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="notRegisteredSignUp">notRegisteredSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="whatsAppSignIn(918148797433)">whatsAppSignIn(918148797433)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignInPageTest" class="method navigator-link" hash-for-method="whatsAppSignIn(918148797433)">whatsAppSignIn(918148797433)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignUpPageTest" class="method navigator-link" hash-for-method="whatsAppSignUp(918148797433, vinoth, kumar)">whatsAppSignUp(918148797433, vinoth, kumar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowser" title="com.sfe.testscripts.SignUpPageTest" class="method navigator-link" hash-for-method="whatsAppSignUp(918148797433, vinoth, kumar)">whatsAppSignUp(918148797433, vinoth, kumar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CrossBrowser -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CrossBrowser" class="panel CrossBrowser">
+          <div class="suite-CrossBrowser-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sfe.testscripts.ProfilePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProfilePage(C:\Users\Dell\Pictures\a.jpg, pzvrvgvcrrvlpoorwa@nthrw.com, Testing@143, vinoth, kumar, VVK, abc, In...)">
+                  </a> <!-- editProfilePage(C:\Users\Dell\Pictures\a.jpg, pzvrvgvcrrvlpoorwa@nthrw.com, Testing@143, vinoth, kumar, VVK, abc, In...) -->
+                  <span class="method-name">editProfilePage</span>
+                  <span class="parameters">(C:\Users\Dell\Pictures\a.jpg, pzvrvgvcrrvlpoorwa@nthrw.com, Testing@143, vinoth, kumar, VVK, abc, India, Music, 1-10 employees, kjhg45)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-uge3vf&quot;])[2]&quot;}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ULMMDGA&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58998}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e25eb01a83d1d7adc75c733dd0d606f
+*** Element info: {Using=xpath, value=(//button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-uge3vf&quot;])[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at com.sfe.actiondriver.Action.JSClick(Action.java:319)
+	at com.sfe.pageobjects.ProfilePageObjects.editProfile(ProfilePageObjects.java:131)
+	at com.sfe.testscripts.ProfilePageTest.editProfilePage(ProfilePageTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser-class-failed -->
+          <div class="suite-CrossBrowser-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sfe.testscripts.SignInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleSignIn(vinothvenkates11@gmail.com, Testing@143)">
+                  </a> <!-- googleSignIn(vinothvenkates11@gmail.com, Testing@143) -->
+                  <span class="method-name">googleSignIn</span>
+                  <span class="parameters">(vinothvenkates11@gmail.com, Testing@143)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://stagingsfe.proxtera.app/dashboard] but found [https://stagingsfe.proxtera.app/]
+	at com.sfe.testscripts.SignInPageTest.googleSignIn(SignInPageTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser-class-failed -->
+          <div class="suite-CrossBrowser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sfe.testscripts.SignUpPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AlreadyAMemberSignin">
+                  </a> <!-- AlreadyAMemberSignin -->
+                  <span class="method-name">AlreadyAMemberSignin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AlreadyAMemberSignin">
+                  </a> <!-- AlreadyAMemberSignin -->
+                  <span class="method-name">AlreadyAMemberSignin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailSingUp(wimsdfgare3678@nifect.com, Testing@143, vinoth, kumar)">
+                  </a> <!-- emailSingUp(wimsdfgare3678@nifect.com, Testing@143, vinoth, kumar) -->
+                  <span class="method-name">emailSingUp</span>
+                  <span class="parameters">(wimsdfgare3678@nifect.com, Testing@143, vinoth, kumar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailSingUp(wimsdfgare3678@nifect.com, Testing@143, vinoth, kumar)">
+                  </a> <!-- emailSingUp(wimsdfgare3678@nifect.com, Testing@143, vinoth, kumar) -->
+                  <span class="method-name">emailSingUp</span>
+                  <span class="parameters">(wimsdfgare3678@nifect.com, Testing@143, vinoth, kumar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="facebookSingUp(vinothvenkateee@gmail.com, Sakshi@143)">
+                  </a> <!-- facebookSingUp(vinothvenkateee@gmail.com, Sakshi@143) -->
+                  <span class="method-name">facebookSingUp</span>
+                  <span class="parameters">(vinothvenkateee@gmail.com, Sakshi@143)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="facebookSingUp(vinothvenkateee@gmail.com, Sakshi@143)">
+                  </a> <!-- facebookSingUp(vinothvenkateee@gmail.com, Sakshi@143) -->
+                  <span class="method-name">facebookSingUp</span>
+                  <span class="parameters">(vinothvenkateee@gmail.com, Sakshi@143)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleSingUp(vinothvenkates11@gmail.com, Testing@143)">
+                  </a> <!-- googleSingUp(vinothvenkates11@gmail.com, Testing@143) -->
+                  <span class="method-name">googleSingUp</span>
+                  <span class="parameters">(vinothvenkates11@gmail.com, Testing@143)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleSingUp(vinothvenkates11@gmail.com, Testing@143)">
+                  </a> <!-- googleSingUp(vinothvenkates11@gmail.com, Testing@143) -->
+                  <span class="method-name">googleSingUp</span>
+                  <span class="parameters">(vinothvenkates11@gmail.com, Testing@143)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobileSignUp(918148797433, vinoth, kumar)">
+                  </a> <!-- mobileSignUp(918148797433, vinoth, kumar) -->
+                  <span class="method-name">mobileSignUp</span>
+                  <span class="parameters">(918148797433, vinoth, kumar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobileSignUp(918148797433, vinoth, kumar)">
+                  </a> <!-- mobileSignUp(918148797433, vinoth, kumar) -->
+                  <span class="method-name">mobileSignUp</span>
+                  <span class="parameters">(918148797433, vinoth, kumar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="whatsAppSignUp(918148797433, vinoth, kumar)">
+                  </a> <!-- whatsAppSignUp(918148797433, vinoth, kumar) -->
+                  <span class="method-name">whatsAppSignUp</span>
+                  <span class="parameters">(918148797433, vinoth, kumar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="whatsAppSignUp(918148797433, vinoth, kumar)">
+                  </a> <!-- whatsAppSignUp(918148797433, vinoth, kumar) -->
+                  <span class="method-name">whatsAppSignUp</span>
+                  <span class="parameters">(918148797433, vinoth, kumar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser-class-passed -->
+          <div class="suite-CrossBrowser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sfe.testscripts.ProfilePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProfilePage(C:\Users\Dell\Pictures\a.jpg, pzvrvgvcrrvlpoorwa@nthrw.com, Testing@143, vinoth, kumar, VVK, abc, In...)">
+                  </a> <!-- editProfilePage(C:\Users\Dell\Pictures\a.jpg, pzvrvgvcrrvlpoorwa@nthrw.com, Testing@143, vinoth, kumar, VVK, abc, In...) -->
+                  <span class="method-name">editProfilePage</span>
+                  <span class="parameters">(C:\Users\Dell\Pictures\a.jpg, pzvrvgvcrrvlpoorwa@nthrw.com, Testing@143, vinoth, kumar, VVK, abc, India, Music, 1-10 employees, kjhg45)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser-class-passed -->
+          <div class="suite-CrossBrowser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sfe.testscripts.SignInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailSignIn(piswjuwgxwkghypyij@tmmwj.com, Testing@143)">
+                  </a> <!-- emailSignIn(piswjuwgxwkghypyij@tmmwj.com, Testing@143) -->
+                  <span class="method-name">emailSignIn</span>
+                  <span class="parameters">(piswjuwgxwkghypyij@tmmwj.com, Testing@143)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailSignIn(piswjuwgxwkghypyij@tmmwj.com, Testing@143)">
+                  </a> <!-- emailSignIn(piswjuwgxwkghypyij@tmmwj.com, Testing@143) -->
+                  <span class="method-name">emailSignIn</span>
+                  <span class="parameters">(piswjuwgxwkghypyij@tmmwj.com, Testing@143)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="facebookSignIn(vinothvenkateee@gmail.com, Sakshi@143)">
+                  </a> <!-- facebookSignIn(vinothvenkateee@gmail.com, Sakshi@143) -->
+                  <span class="method-name">facebookSignIn</span>
+                  <span class="parameters">(vinothvenkateee@gmail.com, Sakshi@143)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="facebookSignIn(vinothvenkateee@gmail.com, Sakshi@143)">
+                  </a> <!-- facebookSignIn(vinothvenkateee@gmail.com, Sakshi@143) -->
+                  <span class="method-name">facebookSignIn</span>
+                  <span class="parameters">(vinothvenkateee@gmail.com, Sakshi@143)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPassword(pzvrvgvcrrvlpoorwa@nthrw.com)">
+                  </a> <!-- forgotPassword(pzvrvgvcrrvlpoorwa@nthrw.com) -->
+                  <span class="method-name">forgotPassword</span>
+                  <span class="parameters">(pzvrvgvcrrvlpoorwa@nthrw.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPassword(pzvrvgvcrrvlpoorwa@nthrw.com)">
+                  </a> <!-- forgotPassword(pzvrvgvcrrvlpoorwa@nthrw.com) -->
+                  <span class="method-name">forgotPassword</span>
+                  <span class="parameters">(pzvrvgvcrrvlpoorwa@nthrw.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleSignIn(vinothvenkates11@gmail.com, Testing@143)">
+                  </a> <!-- googleSignIn(vinothvenkates11@gmail.com, Testing@143) -->
+                  <span class="method-name">googleSignIn</span>
+                  <span class="parameters">(vinothvenkates11@gmail.com, Testing@143)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobileSignIn(918148797433)">
+                  </a> <!-- mobileSignIn(918148797433) -->
+                  <span class="method-name">mobileSignIn</span>
+                  <span class="parameters">(918148797433)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobileSignIn(918148797433)">
+                  </a> <!-- mobileSignIn(918148797433) -->
+                  <span class="method-name">mobileSignIn</span>
+                  <span class="parameters">(918148797433)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notRegisteredSignUp">
+                  </a> <!-- notRegisteredSignUp -->
+                  <span class="method-name">notRegisteredSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notRegisteredSignUp">
+                  </a> <!-- notRegisteredSignUp -->
+                  <span class="method-name">notRegisteredSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="whatsAppSignIn(918148797433)">
+                  </a> <!-- whatsAppSignIn(918148797433) -->
+                  <span class="method-name">whatsAppSignIn</span>
+                  <span class="parameters">(918148797433)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="whatsAppSignIn(918148797433)">
+                  </a> <!-- whatsAppSignIn(918148797433) -->
+                  <span class="method-name">whatsAppSignIn</span>
+                  <span class="parameters">(918148797433)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowser-class-passed -->
+        </div> <!-- panel CrossBrowser -->
+        <div panel-name="test-xml-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dell\eclipse-workspace\SFE_Project_Staging\testng_crossbrowser.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;6&quot; parallel=&quot;tests&quot; name=&quot;CrossBrowser&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.sfe.utility.ListenerClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;6&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sfe.testscripts.SignUpPageTest&quot;/&gt;
+      &lt;class name=&quot;com.sfe.testscripts.SignInPageTest&quot;/&gt;
+      &lt;class name=&quot;com.sfe.testscripts.ProfilePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;6&quot; parallel=&quot;tests&quot; name=&quot;EdgeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sfe.testscripts.SignUpPageTest&quot;/&gt;
+      &lt;class name=&quot;com.sfe.testscripts.SignInPageTest&quot;/&gt;
+      &lt;class name=&quot;com.sfe.testscripts.ProfilePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
+&lt;/suite&gt; &lt;!-- CrossBrowser --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CrossBrowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CrossBrowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AlreadyAMemberSignin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">editProfilePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">emailSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">emailSingUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">facebookSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">facebookSingUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">forgotPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">googleSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">googleSingUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">mobileSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">mobileSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">notRegisteredSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">whatsAppSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">whatsAppSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AlreadyAMemberSignin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">editProfilePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">emailSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">emailSingUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">facebookSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">facebookSingUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">forgotPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">googleSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">googleSingUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">mobileSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">mobileSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">notRegisteredSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">whatsAppSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">whatsAppSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AlreadyAMemberSignin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">editProfilePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">emailSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">emailSingUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">facebookSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">facebookSingUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">forgotPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">googleSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">googleSingUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">mobileSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">mobileSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">notRegisteredSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">whatsAppSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">whatsAppSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CrossBrowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CrossBrowser');
+function tableData_CrossBrowser() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'editProfilePage')
+data.setCell(0, 2, 'com.sfe.testscripts.ProfilePageTest')
+data.setCell(0, 3, 50513);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'editProfilePage')
+data.setCell(1, 2, 'com.sfe.testscripts.ProfilePageTest')
+data.setCell(1, 3, 49488);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'googleSignIn')
+data.setCell(2, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(2, 3, 21600);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'googleSignIn')
+data.setCell(3, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(3, 3, 20775);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'facebookSignIn')
+data.setCell(4, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(4, 3, 20320);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'facebookSignIn')
+data.setCell(5, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(5, 3, 19784);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'googleSingUp')
+data.setCell(6, 2, 'com.sfe.testscripts.SignUpPageTest')
+data.setCell(6, 3, 18457);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'googleSingUp')
+data.setCell(7, 2, 'com.sfe.testscripts.SignUpPageTest')
+data.setCell(7, 3, 18239);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'emailSignIn')
+data.setCell(8, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(8, 3, 18121);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'emailSignIn')
+data.setCell(9, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(9, 3, 17801);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'facebookSingUp')
+data.setCell(10, 2, 'com.sfe.testscripts.SignUpPageTest')
+data.setCell(10, 3, 15126);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'facebookSingUp')
+data.setCell(11, 2, 'com.sfe.testscripts.SignUpPageTest')
+data.setCell(11, 3, 15046);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'mobileSignIn')
+data.setCell(12, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(12, 3, 10814);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'mobileSignUp')
+data.setCell(13, 2, 'com.sfe.testscripts.SignUpPageTest')
+data.setCell(13, 3, 10611);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'mobileSignIn')
+data.setCell(14, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(14, 3, 10528);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'whatsAppSignIn')
+data.setCell(15, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(15, 3, 9873);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'mobileSignUp')
+data.setCell(16, 2, 'com.sfe.testscripts.SignUpPageTest')
+data.setCell(16, 3, 9515);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'whatsAppSignIn')
+data.setCell(17, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(17, 3, 9410);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'forgotPassword')
+data.setCell(18, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(18, 3, 8922);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'emailSingUp')
+data.setCell(19, 2, 'com.sfe.testscripts.SignUpPageTest')
+data.setCell(19, 3, 8715);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'emailSingUp')
+data.setCell(20, 2, 'com.sfe.testscripts.SignUpPageTest')
+data.setCell(20, 3, 8610);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'forgotPassword')
+data.setCell(21, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(21, 3, 8608);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'whatsAppSignUp')
+data.setCell(22, 2, 'com.sfe.testscripts.SignUpPageTest')
+data.setCell(22, 3, 8536);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'whatsAppSignUp')
+data.setCell(23, 2, 'com.sfe.testscripts.SignUpPageTest')
+data.setCell(23, 3, 8419);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'notRegisteredSignUp')
+data.setCell(24, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(24, 3, 3919);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'notRegisteredSignUp')
+data.setCell(25, 2, 'com.sfe.testscripts.SignInPageTest')
+data.setCell(25, 3, 3854);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'AlreadyAMemberSignin')
+data.setCell(26, 2, 'com.sfe.testscripts.SignUpPageTest')
+data.setCell(26, 3, 1642);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'AlreadyAMemberSignin')
+data.setCell(27, 2, 'com.sfe.testscripts.SignUpPageTest')
+data.setCell(27, 3, 1533);
+window.suiteTableData['CrossBrowser']= { tableData: data, tableDiv: 'times-div-CrossBrowser'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-CrossBrowser">
+              </div> <!-- times-div-CrossBrowser -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CrossBrowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sfe.testscripts.ProfilePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sfe.testscripts.SignInPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CrossBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">loadConfig</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">googleSignIn(vinothvenkates11@gmail.com, Testing@143)</span>
+                <span class="method-start">8398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">googleSignIn(vinothvenkates11@gmail.com, Testing@143)</span>
+                <span class="method-start">9168 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29999 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30242 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">30725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">30872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">googleSingUp(vinothvenkates11@gmail.com, Testing@143)</span>
+                <span class="method-start">35084 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">googleSingUp(vinothvenkates11@gmail.com, Testing@143)</span>
+                <span class="method-start">35490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53324 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">53726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">55249 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">whatsAppSignUp(918148797433, vinoth, kumar)</span>
+                <span class="method-start">57197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">whatsAppSignUp(918148797433, vinoth, kumar)</span>
+                <span class="method-start">58876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">65877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">67742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AlreadyAMemberSignin</span>
+                <span class="method-start">69467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">AlreadyAMemberSignin</span>
+                <span class="method-start">71659 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.ProfilePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">71934 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">73194 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.ProfilePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">73932 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">editProfilePage(C:\Users\Dell\Pictures\a.jpg, pzvrvgvcrrvlpoorwa@nthrw.com, Testing@143, vinoth, kumar, VVK, abc, In...)</span>
+                <span class="method-start">75811 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editProfilePage(C:\Users\Dell\Pictures\a.jpg, pzvrvgvcrrvlpoorwa@nthrw.com, Testing@143, vinoth, kumar, VVK, abc, In...)</span>
+                <span class="method-start">77256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125675 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">125972 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.ProfilePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127771 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">128228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emailSignIn(piswjuwgxwkghypyij@tmmwj.com, Testing@143)</span>
+                <span class="method-start">128782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emailSignIn(piswjuwgxwkghypyij@tmmwj.com, Testing@143)</span>
+                <span class="method-start">131590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">146585 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">146888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emailSingUp(wimsdfgare3678@nifect.com, Testing@143, vinoth, kumar)</span>
+                <span class="method-start">149397 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">149713 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">150096 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emailSingUp(wimsdfgare3678@nifect.com, Testing@143, vinoth, kumar)</span>
+                <span class="method-start">153370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">158114 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">158327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">facebookSignIn(vinothvenkateee@gmail.com, Sakshi@143)</span>
+                <span class="method-start">161837 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">161981 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">162508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">facebookSignIn(vinothvenkateee@gmail.com, Sakshi@143)</span>
+                <span class="method-start">165417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">181623 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">181852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">facebookSingUp(vinothvenkateee@gmail.com, Sakshi@143)</span>
+                <span class="method-start">184396 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">185739 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">186127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">facebookSingUp(vinothvenkateee@gmail.com, Sakshi@143)</span>
+                <span class="method-start">189262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">199444 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">199821 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgotPassword(pzvrvgvcrrvlpoorwa@nthrw.com)</span>
+                <span class="method-start">202481 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">204388 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">204720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgotPassword(pzvrvgvcrrvlpoorwa@nthrw.com)</span>
+                <span class="method-start">207898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">211090 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">211353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mobileSignIn(918148797433)</span>
+                <span class="method-start">214428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">216821 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">217539 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mobileSignIn(918148797433)</span>
+                <span class="method-start">220511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">225243 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">225443 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mobileSignUp(918148797433, vinoth, kumar)</span>
+                <span class="method-start">228242 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">231040 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">231619 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mobileSignUp(918148797433, vinoth, kumar)</span>
+                <span class="method-start">234802 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">238854 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">239160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">notRegisteredSignUp</span>
+                <span class="method-start">241749 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">244318 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">244625 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">245670 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">246513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">notRegisteredSignUp</span>
+                <span class="method-start">248829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">whatsAppSignIn(918148797433)</span>
+                <span class="method-start">249967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">252683 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">253000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">whatsAppSignIn(918148797433)</span>
+                <span class="method-start">256163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">259844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">265575 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sfe.testscripts.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">265957 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

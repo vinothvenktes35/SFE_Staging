@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="36" passed="26" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-08T11:27:36 IST" name="CrossBrowser" finished-at="2022-11-08T11:32:01 IST" duration-ms="265714">
+    <groups>
+      <group name="Sanity">
+        <method signature="ProfilePageTest.editProfilePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.ProfilePageTest@2e55dd0c]" name="editProfilePage" class="com.sfe.testscripts.ProfilePageTest"/>
+        <method signature="SignInPageTest.emailSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="emailSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.facebookSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="facebookSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.forgotPassword(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="forgotPassword" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.googleSignIn(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="googleSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.mobileSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="mobileSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.notRegisteredSignUp()[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="notRegisteredSignUp" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.whatsAppSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="whatsAppSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignUpPageTest.AlreadyAMemberSignin()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="AlreadyAMemberSignin" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.emailSingUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="emailSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.facebookSingUp(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="facebookSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.googleSingUp(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="googleSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.mobileSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="mobileSignUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.whatsAppSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="whatsAppSignUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="ProfilePageTest.editProfilePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.ProfilePageTest@49912c99]" name="editProfilePage" class="com.sfe.testscripts.ProfilePageTest"/>
+        <method signature="SignInPageTest.emailSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="emailSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.facebookSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="facebookSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.forgotPassword(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="forgotPassword" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.googleSignIn(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="googleSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.mobileSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="mobileSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.notRegisteredSignUp()[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="notRegisteredSignUp" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.whatsAppSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="whatsAppSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignUpPageTest.AlreadyAMemberSignin()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="AlreadyAMemberSignin" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.emailSingUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="emailSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.facebookSingUp(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="facebookSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.googleSingUp(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="googleSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.mobileSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="mobileSignUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.whatsAppSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="whatsAppSignUp" class="com.sfe.testscripts.SignUpPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="ProfilePageTest.editProfilePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.ProfilePageTest@2e55dd0c]" name="editProfilePage" class="com.sfe.testscripts.ProfilePageTest"/>
+        <method signature="SignInPageTest.emailSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="emailSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.facebookSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="facebookSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.forgotPassword(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="forgotPassword" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.googleSignIn(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="googleSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.mobileSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="mobileSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.notRegisteredSignUp()[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="notRegisteredSignUp" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.whatsAppSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="whatsAppSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignUpPageTest.AlreadyAMemberSignin()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="AlreadyAMemberSignin" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.emailSingUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="emailSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.facebookSingUp(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="facebookSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.googleSingUp(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="googleSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.mobileSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="mobileSignUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.whatsAppSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="whatsAppSignUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="ProfilePageTest.editProfilePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.ProfilePageTest@49912c99]" name="editProfilePage" class="com.sfe.testscripts.ProfilePageTest"/>
+        <method signature="SignInPageTest.emailSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="emailSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.facebookSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="facebookSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.forgotPassword(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="forgotPassword" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.googleSignIn(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="googleSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.mobileSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="mobileSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.notRegisteredSignUp()[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="notRegisteredSignUp" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.whatsAppSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="whatsAppSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignUpPageTest.AlreadyAMemberSignin()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="AlreadyAMemberSignin" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.emailSingUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="emailSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.facebookSingUp(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="facebookSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.googleSingUp(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="googleSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.mobileSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="mobileSignUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.whatsAppSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="whatsAppSignUp" class="com.sfe.testscripts.SignUpPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="ProfilePageTest.editProfilePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.ProfilePageTest@2e55dd0c]" name="editProfilePage" class="com.sfe.testscripts.ProfilePageTest"/>
+        <method signature="SignInPageTest.emailSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="emailSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.facebookSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="facebookSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.forgotPassword(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="forgotPassword" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.googleSignIn(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="googleSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.mobileSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="mobileSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.notRegisteredSignUp()[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="notRegisteredSignUp" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.whatsAppSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" name="whatsAppSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignUpPageTest.AlreadyAMemberSignin()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="AlreadyAMemberSignin" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.emailSingUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="emailSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.facebookSingUp(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="facebookSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.googleSingUp(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="googleSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.mobileSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="mobileSignUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.whatsAppSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" name="whatsAppSignUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="ProfilePageTest.editProfilePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.ProfilePageTest@49912c99]" name="editProfilePage" class="com.sfe.testscripts.ProfilePageTest"/>
+        <method signature="SignInPageTest.emailSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="emailSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.facebookSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="facebookSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.forgotPassword(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="forgotPassword" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.googleSignIn(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="googleSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.mobileSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="mobileSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.notRegisteredSignUp()[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="notRegisteredSignUp" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignInPageTest.whatsAppSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" name="whatsAppSignIn" class="com.sfe.testscripts.SignInPageTest"/>
+        <method signature="SignUpPageTest.AlreadyAMemberSignin()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="AlreadyAMemberSignin" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.emailSingUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="emailSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.facebookSingUp(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="facebookSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.googleSingUp(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="googleSingUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.mobileSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="mobileSignUp" class="com.sfe.testscripts.SignUpPageTest"/>
+        <method signature="SignUpPageTest.whatsAppSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" name="whatsAppSignUp" class="com.sfe.testscripts.SignUpPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-11-08T11:27:36 IST" name="ChromeTest" finished-at="2022-11-08T11:31:56 IST" duration-ms="260012">
+      <class name="com.sfe.testscripts.SignInPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:27:36 IST" name="setup" finished-at="2022-11-08T11:27:45 IST" duration-ms="8286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleSignIn(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:27:45 IST" name="googleSignIn" data-provider="Google" finished-at="2022-11-08T11:28:05 IST" duration-ms="20775" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinothvenkates11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@143]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://stagingsfe.proxtera.app/dashboard] but found [https://stagingsfe.proxtera.app/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://stagingsfe.proxtera.app/dashboard] but found [https://stagingsfe.proxtera.app/]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.sfe.testscripts.SignInPageTest.googleSignIn(SignInPageTest.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:28:06 IST" name="tearDown" finished-at="2022-11-08T11:28:06 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:29:41 IST" name="setup" finished-at="2022-11-08T11:29:44 IST" duration-ms="2810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emailSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:29:44 IST" name="emailSignIn" data-provider="Email" finished-at="2022-11-08T11:30:02 IST" duration-ms="17801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[piswjuwgxwkghypyij@tmmwj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:30:02 IST" name="tearDown" finished-at="2022-11-08T11:30:02 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:30:14 IST" name="setup" finished-at="2022-11-08T11:30:17 IST" duration-ms="3510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="facebookSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:30:17 IST" name="facebookSignIn" data-provider="Facebook" finished-at="2022-11-08T11:30:37 IST" duration-ms="19784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinothvenkateee@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sakshi@143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:30:37 IST" name="tearDown" finished-at="2022-11-08T11:30:37 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:30:55 IST" name="setup" finished-at="2022-11-08T11:30:58 IST" duration-ms="2660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="forgotPassword(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:30:58 IST" name="forgotPassword" data-provider="ForgotPassword" finished-at="2022-11-08T11:31:06 IST" duration-ms="8608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pzvrvgvcrrvlpoorwa@nthrw.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:31:06 IST" name="tearDown" finished-at="2022-11-08T11:31:07 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:31:07 IST" name="setup" finished-at="2022-11-08T11:31:10 IST" duration-ms="3075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mobileSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:31:10 IST" name="mobileSignIn" data-provider="MobileNo" finished-at="2022-11-08T11:31:21 IST" duration-ms="10814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[918148797433]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:31:21 IST" name="tearDown" finished-at="2022-11-08T11:31:21 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:31:34 IST" name="setup" finished-at="2022-11-08T11:31:37 IST" duration-ms="2589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="notRegisteredSignUp()[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:31:37 IST" name="notRegisteredSignUp" finished-at="2022-11-08T11:31:41 IST" duration-ms="3919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notRegisteredSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:31:41 IST" name="tearDown" finished-at="2022-11-08T11:31:42 IST" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:31:42 IST" name="setup" finished-at="2022-11-08T11:31:45 IST" duration-ms="3453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="whatsAppSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:31:45 IST" name="whatsAppSignIn" data-provider="WhatsApp" finished-at="2022-11-08T11:31:55 IST" duration-ms="9873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[918148797433]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whatsAppSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@2cd2a21f]" started-at="2022-11-08T11:31:55 IST" name="tearDown" finished-at="2022-11-08T11:31:56 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sfe.testscripts.SignInPageTest -->
+      <class name="com.sfe.testscripts.SignUpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:28:06 IST" name="setup" finished-at="2022-11-08T11:28:10 IST" duration-ms="4211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleSingUp(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:28:10 IST" name="googleSingUp" data-provider="Google" finished-at="2022-11-08T11:28:29 IST" duration-ms="18239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinothvenkates11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSingUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:28:29 IST" name="tearDown" finished-at="2022-11-08T11:28:29 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:28:29 IST" name="setup" finished-at="2022-11-08T11:28:33 IST" duration-ms="3470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="whatsAppSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:28:33 IST" name="whatsAppSignUp" data-provider="SignUpNo" finished-at="2022-11-08T11:28:41 IST" duration-ms="8419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[918148797433]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vinoth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whatsAppSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:28:41 IST" name="tearDown" finished-at="2022-11-08T11:28:41 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:28:41 IST" name="setup" finished-at="2022-11-08T11:28:45 IST" duration-ms="3590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AlreadyAMemberSignin()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:28:45 IST" name="AlreadyAMemberSignin" finished-at="2022-11-08T11:28:46 IST" duration-ms="1642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlreadyAMemberSignin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:28:46 IST" name="tearDown" finished-at="2022-11-08T11:28:47 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:30:02 IST" name="setup" finished-at="2022-11-08T11:30:05 IST" duration-ms="2508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emailSingUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:30:05 IST" name="emailSingUp" data-provider="SignUpEmail" finished-at="2022-11-08T11:30:13 IST" duration-ms="8715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wimsdfgare3678@nifect.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@143]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vinoth]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailSingUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:30:13 IST" name="tearDown" finished-at="2022-11-08T11:30:14 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:30:37 IST" name="setup" finished-at="2022-11-08T11:30:40 IST" duration-ms="2544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="facebookSingUp(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:30:40 IST" name="facebookSingUp" data-provider="Facebook" finished-at="2022-11-08T11:30:55 IST" duration-ms="15046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinothvenkateee@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sakshi@143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookSingUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:30:55 IST" name="tearDown" finished-at="2022-11-08T11:30:55 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:31:21 IST" name="setup" finished-at="2022-11-08T11:31:24 IST" duration-ms="2798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mobileSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:31:24 IST" name="mobileSignUp" data-provider="SignUpNo" finished-at="2022-11-08T11:31:34 IST" duration-ms="10611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[918148797433]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vinoth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@62230c58]" started-at="2022-11-08T11:31:34 IST" name="tearDown" finished-at="2022-11-08T11:31:34 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sfe.testscripts.SignUpPageTest -->
+      <class name="com.sfe.testscripts.ProfilePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.ProfilePageTest@2e55dd0c]" started-at="2022-11-08T11:28:47 IST" name="setup" finished-at="2022-11-08T11:28:51 IST" duration-ms="3877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="editProfilePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.ProfilePageTest@2e55dd0c]" started-at="2022-11-08T11:28:51 IST" name="editProfilePage" data-provider="ProfilePage" finished-at="2022-11-08T11:29:41 IST" duration-ms="49488" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\Dell\Pictures\a.jpg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pzvrvgvcrrvlpoorwa@nthrw.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testing@143]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[vinoth]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VVK]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Music]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1-10 employees]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[kjhg45]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-uge3vf"])[2]"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ULMMDGA', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58998}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e25eb01a83d1d7adc75c733dd0d606f
+*** Element info: {Using=xpath, value=(//button[@class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-uge3vf"])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-uge3vf"])[2]"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ULMMDGA', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58998}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e25eb01a83d1d7adc75c733dd0d606f
+*** Element info: {Using=xpath, value=(//button[@class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-uge3vf"])[2]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+at com.sfe.actiondriver.Action.JSClick(Action.java:319)
+at com.sfe.pageobjects.ProfilePageObjects.editProfile(ProfilePageObjects.java:131)
+at com.sfe.testscripts.ProfilePageTest.editProfilePage(ProfilePageTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProfilePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.ProfilePageTest@2e55dd0c]" started-at="2022-11-08T11:29:41 IST" name="tearDown" finished-at="2022-11-08T11:29:41 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sfe.testscripts.ProfilePageTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-11-08T11:27:36 IST" name="EdgeTest" finished-at="2022-11-08T11:32:01 IST" duration-ms="265714">
+      <class name="com.sfe.testscripts.SignInPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:27:36 IST" name="setup" finished-at="2022-11-08T11:27:44 IST" duration-ms="7516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleSignIn(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:27:44 IST" name="googleSignIn" data-provider="Google" finished-at="2022-11-08T11:28:05 IST" duration-ms="21600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinothvenkates11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:28:05 IST" name="tearDown" finished-at="2022-11-08T11:28:06 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:29:44 IST" name="setup" finished-at="2022-11-08T11:29:47 IST" duration-ms="3362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emailSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:29:47 IST" name="emailSignIn" data-provider="Email" finished-at="2022-11-08T11:30:05 IST" duration-ms="18121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[piswjuwgxwkghypyij@tmmwj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:30:05 IST" name="tearDown" finished-at="2022-11-08T11:30:05 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:30:18 IST" name="setup" finished-at="2022-11-08T11:30:21 IST" duration-ms="2909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="facebookSignIn(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:30:21 IST" name="facebookSignIn" data-provider="Facebook" finished-at="2022-11-08T11:30:41 IST" duration-ms="20320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinothvenkateee@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sakshi@143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:30:41 IST" name="tearDown" finished-at="2022-11-08T11:30:41 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:31:00 IST" name="setup" finished-at="2022-11-08T11:31:03 IST" duration-ms="3178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="forgotPassword(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:31:03 IST" name="forgotPassword" data-provider="ForgotPassword" finished-at="2022-11-08T11:31:12 IST" duration-ms="8922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pzvrvgvcrrvlpoorwa@nthrw.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:31:12 IST" name="tearDown" finished-at="2022-11-08T11:31:13 IST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:31:13 IST" name="setup" finished-at="2022-11-08T11:31:16 IST" duration-ms="2972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mobileSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:31:16 IST" name="mobileSignIn" data-provider="MobileNo" finished-at="2022-11-08T11:31:26 IST" duration-ms="10528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[918148797433]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:31:26 IST" name="tearDown" finished-at="2022-11-08T11:31:27 IST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:31:40 IST" name="setup" finished-at="2022-11-08T11:31:44 IST" duration-ms="4204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="notRegisteredSignUp()[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:31:44 IST" name="notRegisteredSignUp" finished-at="2022-11-08T11:31:48 IST" duration-ms="3854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notRegisteredSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:31:48 IST" name="tearDown" finished-at="2022-11-08T11:31:48 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:31:48 IST" name="setup" finished-at="2022-11-08T11:31:51 IST" duration-ms="3163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="whatsAppSignIn(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:31:51 IST" name="whatsAppSignIn" data-provider="WhatsApp" finished-at="2022-11-08T11:32:01 IST" duration-ms="9410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[918148797433]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whatsAppSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignInPageTest@22e357dc]" started-at="2022-11-08T11:32:01 IST" name="tearDown" finished-at="2022-11-08T11:32:01 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sfe.testscripts.SignInPageTest -->
+      <class name="com.sfe.testscripts.SignUpPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:27:35 IST" name="loadConfig" finished-at="2022-11-08T11:27:36 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:28:06 IST" name="setup" finished-at="2022-11-08T11:28:11 IST" duration-ms="4765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleSingUp(java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:28:11 IST" name="googleSingUp" data-provider="Google" finished-at="2022-11-08T11:28:29 IST" duration-ms="18457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinothvenkates11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSingUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:28:29 IST" name="tearDown" finished-at="2022-11-08T11:28:30 IST" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:28:31 IST" name="setup" finished-at="2022-11-08T11:28:34 IST" duration-ms="3626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="whatsAppSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:28:34 IST" name="whatsAppSignUp" data-provider="SignUpNo" finished-at="2022-11-08T11:28:43 IST" duration-ms="8536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[918148797433]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vinoth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whatsAppSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:28:43 IST" name="tearDown" finished-at="2022-11-08T11:28:43 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:28:43 IST" name="setup" finished-at="2022-11-08T11:28:47 IST" duration-ms="3916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AlreadyAMemberSignin()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:28:47 IST" name="AlreadyAMemberSignin" finished-at="2022-11-08T11:28:49 IST" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlreadyAMemberSignin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:28:49 IST" name="tearDown" finished-at="2022-11-08T11:28:49 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:30:05 IST" name="setup" finished-at="2022-11-08T11:30:09 IST" duration-ms="3274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emailSingUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:30:09 IST" name="emailSingUp" data-provider="SignUpEmail" finished-at="2022-11-08T11:30:17 IST" duration-ms="8610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wimsdfgare3678@nifect.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@143]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vinoth]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailSingUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:30:17 IST" name="tearDown" finished-at="2022-11-08T11:30:18 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:30:41 IST" name="setup" finished-at="2022-11-08T11:30:45 IST" duration-ms="3135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="facebookSingUp(java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:30:45 IST" name="facebookSingUp" data-provider="Facebook" finished-at="2022-11-08T11:31:00 IST" duration-ms="15126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinothvenkateee@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sakshi@143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookSingUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:31:00 IST" name="tearDown" finished-at="2022-11-08T11:31:00 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:31:27 IST" name="setup" finished-at="2022-11-08T11:31:30 IST" duration-ms="3183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mobileSignUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:31:30 IST" name="mobileSignUp" data-provider="SignUpNo" finished-at="2022-11-08T11:31:40 IST" duration-ms="9515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[918148797433]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vinoth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:31:40 IST" name="tearDown" finished-at="2022-11-08T11:31:40 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.sfe.testscripts.SignUpPageTest@702b8b12]" started-at="2022-11-08T11:32:01 IST" name="afterSuite" finished-at="2022-11-08T11:32:02 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.sfe.testscripts.SignUpPageTest -->
+      <class name="com.sfe.testscripts.ProfilePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sfe.testscripts.ProfilePageTest@49912c99]" started-at="2022-11-08T11:28:49 IST" name="setup" finished-at="2022-11-08T11:28:53 IST" duration-ms="3324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="editProfilePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfe.testscripts.ProfilePageTest@49912c99]" started-at="2022-11-08T11:28:53 IST" name="editProfilePage" data-provider="ProfilePage" finished-at="2022-11-08T11:29:43 IST" duration-ms="50513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\Dell\Pictures\a.jpg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pzvrvgvcrrvlpoorwa@nthrw.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testing@143]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[vinoth]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[VVK]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Music]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1-10 employees]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[kjhg45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProfilePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sfe.testscripts.ProfilePageTest@49912c99]" started-at="2022-11-08T11:29:43 IST" name="tearDown" finished-at="2022-11-08T11:29:43 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sfe.testscripts.ProfilePageTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- CrossBrowser -->
+</testng-results>
