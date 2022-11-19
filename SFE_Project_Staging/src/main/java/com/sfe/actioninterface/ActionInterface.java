@@ -63,4 +63,5 @@ public interface ActionInterface {
     public void enter() throws AWTException;
     public String allOptions(WebDriver driver, WebElement ele);
     public void bootStrapDropdown(WebDriver ldriver, List<WebElement> ele, String dropDown) throws InterruptedException;
+    public void clearWebField(WebElement element);
 }

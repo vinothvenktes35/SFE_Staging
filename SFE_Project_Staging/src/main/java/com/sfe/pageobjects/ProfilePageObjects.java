@@ -90,10 +90,18 @@ public class ProfilePageObjects extends BaseClass {
 		Log.startTestCase("profile Page");
 		Thread.sleep(2000);
 		action.click(getDriver(), profilePictureEdit);
+//		action.type(profilePictureEdit, imagePath);
 		Thread.sleep(2000);
 		action.uploadUsingRobotClass(imagePath);
-		
+		Thread.sleep(2000);
+		Log.info("profile image updated successfully");
+		Thread.sleep(5000);
        
+		Log.startTestCase("profile Page");
+		Thread.sleep(2000);
+		action.click(getDriver(), profilePictureEdit);
+		Thread.sleep(2000);
+		action.uploadUsingRobotClass(imagePath);
 		
         Log.info("click on profile edit icon");
 		action.moveToElement(getDriver(), profileEditIcon);
@@ -101,28 +109,25 @@ public class ProfilePageObjects extends BaseClass {
 
 		Log.info("Enter first name");
 		action.JSClick(getDriver(), profilefirstName);
-		action.selectAll(profilefirstName);
 		action.type(profilefirstName, fName);
 
 		Log.info("Enter last name");
 		action.JSClick(getDriver(), profileLastName);
-		action.selectAll(profileLastName);
 		action.type(profileLastName, lName);
 
 		Log.info("Enter company name");
 		action.JSClick(getDriver(), profileCompanyName);
-		action.selectAll(profileCompanyName);
 		action.type(profileCompanyName, companyName);
 
 		Log.info("Enter designation name");
 		action.JSClick(getDriver(), profileDesignation);
-		action.selectAll(profileDesignation);
+		action.clearWebField(profileDesignation);
 		action.type(profileDesignation, designation);
 
 		Log.info("country");
 		action.JSClick(getDriver(), ProfileCountryDdn);
 		Thread.sleep(1000);
-		action.selectAll(ProfileCountryDdnTxt);
+		action.clearWebField(ProfileCountryDdnTxt);
 		action.type(ProfileCountryDdnTxt, country);
 		Thread.sleep(1000);
 		action.enter();
@@ -130,7 +135,7 @@ public class ProfilePageObjects extends BaseClass {
 		Log.info("industry");
 		action.JSClick(getDriver(), profileIndustryDdn);
 		Thread.sleep(1000);
-		action.selectAll(ProfileIndustryDdnTxt);
+		action.clearWebField(ProfileIndustryDdnTxt);
 		action.type(ProfileIndustryDdnTxt, industry);
 		Thread.sleep(1000);
 		action.enter();
@@ -147,7 +152,7 @@ public class ProfilePageObjects extends BaseClass {
 		Log.info("Tax Id");
 		action.type(profileTaxID, taxId);
 		Thread.sleep(2000);
-		action.selectAll(profileTaxID);
+		action.clearWebField(profileTaxID);
 		action.type(profileTaxID, taxId);
 
 		Log.info("Click save button");
@@ -155,6 +160,7 @@ public class ProfilePageObjects extends BaseClass {
 		Thread.sleep(4000);
 		Log.endTestCase("profile Page");
 		return new PaymentPageObjects();
+		
 	}
 
 	public PaymentPageObjects profile() {

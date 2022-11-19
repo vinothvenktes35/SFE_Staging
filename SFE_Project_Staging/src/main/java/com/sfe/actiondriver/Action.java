@@ -25,6 +25,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -1009,5 +1010,12 @@ public class Action extends BaseClass implements ActionInterface {
 			
 						 
 			}
+	@Override
+	 public void clearWebField(WebElement element){
+		    while(!element.getAttribute("value").equals("")){
+		        element.sendKeys(Keys.BACK_SPACE);
+		    }
+		}
+	 
 	}
 
